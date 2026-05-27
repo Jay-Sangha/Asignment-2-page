@@ -2,5 +2,3 @@ node_modules/
 .cache/
 dist/
 .DS_Store
-
-# Keep docs/ — built site for GitHub Pages (do not ignore)

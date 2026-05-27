@@ -1,29 +1,29 @@
-# Lighting 
+# Assignment 2 — Blocky 3D Horse
+
+WebGL blocky horse built from cubes with hierarchical leg joints, animation, and color.
 
 ## Run locally
 
-- `npm install`
-- `npm start` → [http://localhost:1234](http://localhost:1234)
+```bash
+npm install
+npm start
+```
+
+Opens at http://localhost:1234
 
 ## Controls
 
-- **Camera**: Orbit X/Y and distance sliders; **W/A/S/D** orbit, **Q/E** zoom
-- **Point light**: X/Y/Z sliders, RGB color, animate toggle, ON/OFF
-- **Spot light**: Position + cutoff angle, ON/OFF (aims at scene center)
-- **Lighting** / **Normal viz** toggle buttons
+- **Global rotation / tilt** — sliders on the right
+- **Front left leg** — shoulder, knee, ankle sliders
+- **Animation** — toggle button
+- **Mouse** — drag on canvas to rotate; **Shift+click** for poke (wink) animation
 
-## GitHub Pages
+## Deploy to GitHub Pages
 
 1. `npm install`
-2. `npm run build` (creates the `docs/` folder)
-3. Commit and push everything, including `docs/`
-4. On GitHub: **Settings → Pages**
-   - **Source**: Deploy from a branch
-   - **Branch**: `main`
-   - **Folder**: `/docs`
-5. Wait 1–2 minutes. Your site will be at:
+2. `npm run build` (updates the `docs/` folder)
+3. Commit and push (including `docs/`)
+4. GitHub → **Settings → Pages** → Source: **main** branch, folder **/docs**
+5. Site URL: https://jay-sangha.github.io/Asignment-2-page/
 
-   **https://jay-sangha.github.io/A4-Lighting/**
-
-After you change code, run `npm run build` again and push before the live site updates.
-
+**Important:** Use the root Pages URL above. Do **not** open `/src/index.html` — that is source only and will not run without a build.
